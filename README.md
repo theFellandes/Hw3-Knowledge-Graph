@@ -163,5 +163,10 @@ Previous Version With JSON:
             Your output should be a list of relationships in JSON format, and nothing else.
 
 
+## Graph
+
+![graph.png](graph.png)
+
+
 ## Authors
 - [Oğuzhan Güngör](https://github.com/theFellandes/)
