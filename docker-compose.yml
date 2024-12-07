@@ -7,7 +7,6 @@ services:
     restart: always
     environment:
       NEO4J_AUTH: neo4j/your_password
-      NEO4J_dbms_default__database: hw-db # Set the default database name
     ports:
       - "7474:7474" # HTTP Neo4j Browser
       - "7687:7687" # Bolt protocol (used by drivers)

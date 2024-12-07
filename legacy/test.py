@@ -111,7 +111,7 @@ class KnowledgeGraphBuilder:
 
 if __name__ == "__main__":
     # Load configuration from YAML file
-    CONFIG_PATH = "internal/reader/config.yaml"
+    CONFIG_PATH = "../internal/reader/config.yaml"
 
     try:
         with YamlReader(CONFIG_PATH) as config:

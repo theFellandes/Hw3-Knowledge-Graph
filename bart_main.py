@@ -25,7 +25,7 @@ def main():
     llm = BartLLM(chunks)
 
     # Step 2: Use BART to generate summaries for each chunk
-    summaries = llm.generate_summary_using_bart()
+    summaries = llm.generate_summary()
 
     # Step 3: Extract entities and relationships from each summary
     all_entities = []
