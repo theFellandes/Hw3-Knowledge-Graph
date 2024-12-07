@@ -110,7 +110,17 @@ An Interesting Relationship Observed In This Graph:
 
 name: Antoninus Pius adopted Marcus Aurelius and Lucius but was adopted by Hadrian although not in the graph as Emperor, was indeed an emperor to the Roman empire.
 
+Script:
+
+````neo4j
+MATCH (a:Entity {name: "Antoninus Pius"})-[r]->(b)
+WHERE b.name IN ["Marcus Aurelius", "Hadrian", "Lucius"]
+RETURN a.name AS Source, type(r) AS Relationship, b.name AS Target
+````
+
 ![img.png](md-resources/img5.png)
+
+![img.png](md-resources/img6.png)
 
 ## Used Prompts In OpenAI
 
