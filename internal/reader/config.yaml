@@ -1,0 +1,16 @@
+fastapi:
+  port: 8080
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "your_password"
+
+wikipedia:
+  page_title: "Marcus Aurelius"
+
+huggingface:
+  model: "google/flan-t5-small"
+  temperature: 0
+  token: "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"
+  max_new_tokens: 250
