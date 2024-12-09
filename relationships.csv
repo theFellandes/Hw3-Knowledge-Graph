@@ -8,13 +8,15 @@ Marcus Aurelius,was the last emperor of,Pax Romana
 Marcus Aurelius,served as,Roman consul
 Marcus Aurelius,was the son of,Marcus Annius Verus
 Marcus Aurelius,was the son of,Domitia Calvilla
-Marcus Aurelius,was related to,Trajan
-Marcus Aurelius,was related to,Hadrian
+Marcus Aurelius,was related through marriage to,Trajan
+Marcus Aurelius,was related through marriage to,Hadrian
 Marcus Aurelius,was raised by,his mother
 Marcus Aurelius,was raised by,his paternal grandfather
 Hadrian,adopted,Antoninus Pius
 Antoninus Pius,adopted,Marcus Aurelius
 Antoninus Pius,adopted,Lucius
+Marcus Aurelius,studied under,Herodes Atticus
+Marcus Aurelius,studied under,Marcus Cornelius Fronto
 Marcus Aurelius,married,Faustina
 Marcus Aurelius,acceded to the throne alongside,Lucius Aurelius Verus
 Marcus Aurelius,fought,Parthian Empire
@@ -28,18 +30,24 @@ source,relationship,target
 Marcus Aurelius,defeated,Marcomanni
 Marcus Aurelius,defeated,Quadi
 Marcus Aurelius,defeated,Sarmatian Iazyges
-Marcus Aurelius,reduced silver purity of,Roman currency
-Marcus Aurelius,was called by Tertullian,protector of Christians
+Marcus Aurelius,reduced,silver purity of the Roman currency
+Marcus Aurelius,was called,protector of Christians by Tertullian
 Antonine Plague,broke out in,165 or 166
-Antonine Plague,devastated population of,Roman Empire
+Antonine Plague,devastated,population of the Roman Empire
 Antonine Plague,caused deaths of,five to ten million people
 Lucius Verus,may have died from,Antonine Plague
 Marcus Aurelius,was succeeded by,Commodus
-Commodus,was co-emperor with,Marcus Aurelius
 Commodus,accompanied his father during,Marcomannic Wars
-Commodus,became youngest emperor and consul at age,16
+Commodus,accompanied his father on tour of,Eastern provinces
+Commodus,became emperor at age,16
 Commodus,created,deific personality cult
-Commodus,performed as a gladiator in,Colosseum
+Commodus,performed as,gladiator in the Colosseum
+Marcus Aurelius,was celebrated by,Column of Marcus Aurelius
+Marcus Aurelius,was celebrated by,Equestrian Statue of Marcus Aurelius
+Marcus Aurelius,wrote,Meditations
+Meditations,are a source of,modern understanding of ancient Stoic philosophy
+Commodus,was co-emperor with,Marcus Aurelius
+Commodus's sole rule,marked end of,Pax Romana
 source,relationship,target
 Roman Empire,known as,Pax Romana
 Commodus,accompanied,his father
@@ -52,8 +60,6 @@ Commodus,experienced,internal intrigues and conspiracies
 Commodus,adopted,dictatorial style of leadership
 Commodus,created,deific personality cult
 Commodus,performed as,gladiator in the Colosseum
-Commodus,entrusted management to,palace chamberlain
-Commodus,entrusted management to,praetorian prefects
-Saoterus,was,praetorian prefect
-Perennis,was,praetorian prefect
-Cleander,was,praetorian prefect
+Commodus,entrusted management to,Saoterus
+Commodus,entrusted management to,Perennis
+Commodus,entrusted management to,Cleander

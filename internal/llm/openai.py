@@ -17,6 +17,10 @@ class ChatGptLLM(LLMBase):
     max_tokens: int = field(default=500)
 
     @staticmethod
+    def __post_init__():
+        LLMBase.enable_cache()
+
+    @staticmethod
     def csv_cleaner(response_content):
         cleaned_data = []
 
@@ -70,7 +74,7 @@ class ChatGptLLM(LLMBase):
                 print(f"Response received: {response.content.strip()}")
         return self.csv_cleaner(relationships)
 
-    @deprecated
+    @deprecated("Old version of the function, use generate_relationships_csv instead.")
     def generate_relationships(self):
         llm = ChatOpenAI(model=self.model, temperature=self.temperature, max_tokens=self.max_tokens)
 

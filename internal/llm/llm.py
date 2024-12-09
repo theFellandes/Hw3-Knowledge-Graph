@@ -2,11 +2,17 @@ import re
 
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
+from langchain_community.cache import InMemoryCache
+from langchain.globals import set_llm_cache
 
 
 @dataclass
 class LLMBase(ABC):
     chunks: list[str]
+
+    @staticmethod
+    def enable_cache():
+        set_llm_cache(InMemoryCache())
 
     @abstractmethod
     def generate_summary(self):
