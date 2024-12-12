@@ -7,6 +7,8 @@ services:
     restart: always
     environment:
       NEO4J_AUTH: neo4j/your_password
+      NEO4JLABS_PLUGINS: '["apoc"]'
+      NEO4J_dbms_security_procedures_unrestricted: apoc.*
     ports:
       - "7474:7474" # HTTP Neo4j Browser
       - "7687:7687" # Bolt protocol (used by drivers)
@@ -29,8 +31,8 @@ services:
     ports:
       - "8000:8000" # If your Python app exposes an API
     environment:
-      - NEO4J_URI=bolt://neo4j_db:7687
-      - NEO4J_USER=neo4j
+      - NEO4J_URI=bolt://neo4j:7687  # Use the service name 'neo4j'
+      - NEO4J_USERNAME=neo4j         # Updated variable for consistency
       - NEO4J_PASSWORD=your_password
 
 volumes:
